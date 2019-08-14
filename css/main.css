@@ -1,13 +1,18 @@
 html {
-  font-family: "Noto Sans Japanese", sans-serif;
-
-  box-sizing: border-box;
+  font-family: "Noto Sans Japanese", serif;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
+nav {
+  text-align: center;
 }
-
 hr {
   border: 1px solid #e2e2e2;
+}
+
+.btn:hover {
+  border: 1px solid #005e76;
+}
+
+.nav:hover {
+  background-color: green;
 }
