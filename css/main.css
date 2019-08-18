@@ -1,5 +1,5 @@
 html {
-  font-family: "Noto Sans Japanese", serif;
+  font-family: "Noto Sans Japanese", sans-serif;
 }
 
 nav {
@@ -10,7 +10,8 @@ hr {
 }
 
 .btn:hover {
-  border: 1px solid #005e76;
+  border: 3px solid #005e76;
+  background-color: white;
 }
 
 .nav:hover {
