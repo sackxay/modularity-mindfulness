@@ -6,13 +6,16 @@ i {
   font-family: "Noto Sans Japanese", sans-serif;
 }
 
+.title {
+  text-align: center;
+}
+
 nav {
   text-align: center;
-  color: #005e76;
+  color: #0084a6;
 }
 
 a {
-
   padding-bottom: 5px;
 }
 
@@ -41,4 +44,16 @@ hr {
 
 a:focus {
   outline: 3px solid #000;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .right {
+    text-align: right;
+  }
+
+  .left {
+    text-align: left;
+  }
+
 }
