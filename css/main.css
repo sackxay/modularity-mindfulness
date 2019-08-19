@@ -1,4 +1,8 @@
 html {
+  font-family: "Noto Sans", sans-serif;
+}
+
+i {
   font-family: "Noto Sans Japanese", sans-serif;
 }
 
@@ -8,9 +12,8 @@ nav {
 }
 
 a {
-  border-bottom: 2px solid #005e76;
+
   padding-bottom: 5px;
-  color: #005e76;
 }
 
 hr {
@@ -24,4 +27,9 @@ hr {
 
 .nav:hover {
   background-color: green;
+}
+
+.btn-ghost {
+  color: #005e76;
+  border-bottom: 2px solid #8bc9d9;
 }
