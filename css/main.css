@@ -4,7 +4,15 @@ html {
 
 nav {
   text-align: center;
+  color: #005e76;
 }
+
+a {
+  border-bottom: 2px solid #005e76;
+  padding-bottom: 5px;
+  color: #005e76;
+}
+
 hr {
   border: 1px solid #e2e2e2;
 }

@@ -10,6 +10,7 @@
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet">
 </head>
+
 <body>
 
   <ul class="skip-links">
@@ -18,37 +19,38 @@
     <li><a href="#footer">Skip to footer</a></li>
   </ul>
 
-  <header role="banner">
-    <div class="grid">
-    <div class="unit xs-1 center-content pad-t-1-2">
-      <h1 class="unit xs-1 text-center bold tera push-0">枯山水<br><b class="milli">Rock Gardenz</b></h1>
+
+  <header class="unit xs-1" role="banner">
+    <div class="grid grid-middle pad-t-1-2">
+      <h1 class="unit xs-1 text-center bold tera push-0">枯山水<br><b class="milli">Rock Gardens</b></h1>
     </div>
 
-    <nav role="navigation" class="unit xs-1">
-      <ul class="giga unit list-group-inline xs-1 l-4-4">
-        <li><a class="" href="#viewing">Viewing</a></li>
-        <li><a class="gutter-1-4" href="#gravel">Gravel</a></li>
-        <li><a class="" href="#symbolism">Symbolism</a></li>
+    <nav role="navigation" class="unit push xs-1" id="nav">
+      <ul class="pad-t unit giga list-group-inline xs-1 l-4-4">
+        <li><a class="link-box btn-ghost" href="#viewing">Viewing</a></li>
+        <li><a class="link-box gutter-1-4 btn-ghost" href="#gravel">Gravel</a></li>
+        <li><a class="link-box btn-ghost" href="#symbolism">Symbolism</a></li>
       </ul>
     </nav>
-
-  <div class="unit embed embed-4by1 push pad-t">
-    <img class="embed-item" aria-label="A vectorized natural landscape with trees and rocks" src="images/banner.svg" alt="cartoony landscape">
-  </div>
 
 </header>
 
   <hr>
-  <main role="main">
+
+  <main role="main" class="push" id="main">
+    <div class="unit embed embed-4by1">
+      <img class="embed-item" aria-label="A vectorized natural landscape with trees and rocks" src="images/banner.svg" alt="cartoony landscape">
+    </div>
+
     <section>
 
-      <h2 class="unit text-center push-0 gutter-2 tera not-bold">自然の親密な本質を模倣し、人生の真の意味を発見する。</h2>
-      <p class="text-center max-length gutter-2 pad-t-1-4">Imitate the intimate essence of nature & discover the true meaning of life.</p>
+      <h2 class="text-center push-0 gutter-2 tera not-bold">自然の親密な本質を模倣し、人生の真の意味を発見する。</h2>
+      <p class="unit text-center max-length gutter-2 pad-t-1-4">Imitate the intimate essence of nature & discover the true meaning of life.</p>
 
       <hr>
-      <div class="unit gutter-1-2">
-        <div class="unit embed embed-4by3 push pad-t">
-          <img class="embed-item" aria-label="A japanese garden structure" src="images/viewing.svg" alt="cartoony landscape">
+      <div class="gutter-1-2">
+        <div class="unit embed embed-4by3">
+          <img class="embed-item" aria-label="A japanese garden structure" src="images/viewing.svg" alt="cartoony garden structure">
         </div>
 
         <h2 class="viewing">閲覧
@@ -59,7 +61,7 @@
             Learn more about Viewing
           </div>
 
-          <div class="unit embed embed-4by3 push pad-t">
+          <div class="unit embed embed-4by3">
             <img class="embed-item" aria-label="a vectorized boulder" src="images/gravel.svg" alt="cartoony landscape">
           </div>
 
@@ -69,10 +71,11 @@
             <div class="btn btn-ghost">
               Learn more about Gravel
             </div>
-            <div class="unit gutter-1-2">
-              <div class="unit embed embed-4by3 push pad-t">
+
+              <div class="unit embed embed-4by3">
                 <img class="embed-item" aria-label="A vectorized boulder beside a tree, on the shore of a body of water" src="images/symbolism.svg" alt="cartoony landscape">
               </div>
+
               <h2 class="bold">象徴主義
                 <br>Symbolism</h2>
                 <p>In the Japanese rock garden, rocks sometimes symbolize mountains (particularly Horai or they can be boats or a living creature, usually a turtle, or a carp</p>
@@ -80,12 +83,10 @@
                   Learn more about Symbolism
                 </div>
               </div>
-            </div>
-            </div>
           </section>
         </main>
         <hr>
-        <footer role="contentinfo">
+        <footer role="contentinfo" id="footer">
           © 794 Heian Period
         </footer>
       </body>
