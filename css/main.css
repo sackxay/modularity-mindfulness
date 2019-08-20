@@ -2,7 +2,7 @@ html {
   font-family: "Noto Sans", sans-serif;
 }
 
-i {
+.i {
   font-family: "Noto Sans Japanese", sans-serif;
 }
 
@@ -49,7 +49,7 @@ a:focus {
 @media only screen and (min-width: 60em) {
 
   h1 {
-    margin-bottom: .4rem;
+    margin-bottom: .8rem;
   }
 
   .right {
